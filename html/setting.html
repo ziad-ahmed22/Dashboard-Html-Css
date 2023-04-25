@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Setting</title>
+</head>
+<body class="bg-body">
+    <aside class="bg-white shadow p-18">
+        <h2>Elzero</h2>
+        <ul>
+            <li>
+                <a href="../index.html" class="c-black rad-5">
+                    <i class="fa-regular fa-chart-bar fa-fw"></i>
+                    <span>Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="setting.html" class="active c-black rad-5">
+                    <i class="fa-solid fa-gear fa-fw"></i> 
+                    <span>Setting</span>
+                </a>
+            </li>
+            <li>
+                <a href="profile.html" class="c-black rad-5">
+                    <i class="fa-regular fa-user fa-fw"></i> 
+                    <span>Profile</span>
+                </a>
+            </li>
+            <li>
+                <a href="projects.html" class="c-black rad-5">
+                    <i class="fa-solid fa-diagram-project fa-fw"></i>
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="courses.html" class="c-black rad-5">
+                    <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                    <span>Courses</span>
+                </a>
+            </li>
+            <li>
+                <a href="friends.html" class="c-black rad-5">
+                    <i class="fa-regular fa-circle-user fa-fw"></i>
+                    <span>Friends</span>
+                </a>
+            </li>
+            <li>
+                <a href="files.html" class="c-black rad-5">
+                    <i class="fa-regular fa-file fa-fw"></i>
+                    <span>Files</span>
+                </a>
+            </li>
+            <li>
+                <a href="plans.html" class="c-black rad-5">
+                    <i class="fa-regular fa-credit-card fa-fw"></i>
+                    <span>Plans</span>
+                </a>
+            </li>
+        </ul>
+    </aside>
+
+    <nav class="flex-between bg-white shadow">
+        <div class="search">
+            <i class="fa-solid fa-magnifying-glass c-gray"></i>
+            <input class="rad-5" type="search" placeholder="Type A Keyword">
+        </div>
+        <div class="notification flex-center">
+            <i class="fa-regular fa-bell">
+                <span class="rad-50"></span>
+            </i>
+            <img src="../images/avatar.png" alt="avatar">
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="setting">
+            <h1 class="heading">Setting</h1>
+            <div class="grid-2">
+                <div class="site-control p-18 bg-white shadow rad-5">
+                    <h3 class="section-title">Site Control</h3>
+                    <p class="section-p">Control The Website If There Is Maintenance</p>
+                    <div class="flex-between">
+                        <div>
+                            <h4>Website Control</h4>
+                            <p class="c-gray">Open / Close Website And Type The Reason</p>
+                        </div>
+                        <div class="checkbox-shape">
+                            <input id="ch" type="checkbox" checked>
+                            <label for="ch"></label>
+                        </div>
+                    </div>
+                    <textarea class="rad-5" placeholder="Close Message Content"></textarea>
+                </div>
+                <div class="genral-info p-18 bg-white shadow rad-5">
+                    <h3 class="section-title">General Info</h3>
+                    <p class="section-p">General Information About Your Account</p>
+                    <form>
+                        <div class="f-name c-gray">
+                            <label for="f-name">First Name</label>
+                            <input class="rad-5" id="f-name" type="text" placeholder="First Name">
+                        </div>
+                        <div class="l-name c-gray">
+                            <label for="l-name">Last Name</label>
+                            <input class="rad-5" id="l-name" type="text" placeholder="Last Name">
+                        </div>
+                        <div class="e-mail c-gray">
+                            <label for="e-mail">E-mail</label>
+                            <div class="flex-between">
+                                <input class="flex-1 rad-5 bg-light-gray" id="e-mail" type="email" value="ziiadd2211@gmail.com" disabled>
+                                <input class="c-blue bg-white rad-5" type="submit" value="Change">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="security-info p-18 bg-white shadow rad-5">
+                    <h3 class="section-title">Security Info</h3>
+                    <p class="section-p">Security Information About Your Account</p>
+                    <div class="flex-between">
+                        <div>
+                            <h4>Password</h4>
+                            <p class="section-p c-gray">Last Change On 25/10/2021</p>
+                        </div>
+                        <div class="btn-shape c-white bg-blue">Change</div>
+                    </div>
+                    <div class="flex-between">
+                        <div>
+                            <h4>Two-Factor Authentication</h4>
+                            <p class="section-p c-gray">Enable / Disable The Feature</p>
+                        </div>
+                        <div class="checkbox-shape">
+                            <input id="two-fact" type="checkbox" checked>
+                            <label for="two-fact"></label>
+                        </div>
+                    </div>
+                    <div class="flex-between">
+                        <div>
+                            <h4>Devices</h4>
+                            <p class="section-p c-gray">Check The Login Devices List</p>
+                        </div>
+                        <div class="btn-shape c-black bg-gray">Devices</div>
+                    </div>
+                </div>
+                <div class="social-info p-18 bg-white shadow rad-5">
+                    <h3 class="section-title">Social Info</h3>
+                    <p class="section-p">Social Media Information</p>
+                    <div class="box flex-start">
+                        <i class="fa-brands fa-twitter flex-center c-gray bg-light-gray"></i>
+                        <input class="flex-1 c-grey bg-light-gray" type="text" placeholder="Twitter Username">
+                    </div>
+                    <div class="box flex-start">
+                        <i class="fa-brands fa-facebook flex-center c-gray bg-light-gray"></i>
+                        <input class="flex-1 c-grey bg-light-gray" type="text" placeholder="Facebook Username">
+                    </div>
+                    <div class="box flex-start">
+                        <i class="fa-brands fa-linkedin flex-center c-gray bg-light-gray"></i>
+                        <input class="flex-1 c-grey bg-light-gray" type="text" placeholder="Linkedin Username">
+                    </div>
+                    <div class="box flex-start">
+                        <i class="fa-brands fa-youtube flex-center c-gray bg-light-gray"></i>
+                        <input class="flex-1 c-grey bg-light-gray" type="text" placeholder="Youtube Username">
+                    </div>
+                </div>
+                <div class="widgets-control p-18 bg-white shadow rad-5">
+                    <h3 class="section-title">Widgets Control</h3>
+                    <p class="section-p c-gray">Show / Hide Widgets</p>
+                    <ul>
+                        <li>
+                            <input id="one" type="checkbox" checked>
+                            <label for="one">Quick Draft</label>
+                        </li>
+                        <li>
+                            <input id="two" type="checkbox" checked>
+                            <label for="two">Yearly Targets</label>
+                        </li>
+                        <li>
+                            <input id="three" type="checkbox" checked>
+                            <label for="three">Tickets Statistics</label>
+                        </li>
+                        <li>
+                            <input id="four" type="checkbox" checked>
+                            <label for="four">Latest News</label>
+                        </li>
+                        <li>
+                            <input id="five" type="checkbox">
+                            <label for="five">Latest Tasks</label>
+                        </li>
+                        <li>
+                            <input id="six" type="checkbox">
+                            <label for="six">Top Search Items</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="backup-manager p-18 bg-white shadow rad-5">
+                    <h3 class="section-title">Backup Manager</h3>
+                    <p class="section-p c-gray">Control Backup Time And Location</p>
+                    <ul>
+                        <li>
+                            <input type="radio" name="t" id="day" checked>
+                            <label class="rad-5" for="day">
+                                <i class="fa-solid fa-server"></i>
+                                Daily
+                            </label>
+                        </li>
+                        <li>
+                            <input type="radio" name="t" id="week">
+                            <label class="rad-5" for="week">
+                                <i class="fa-solid fa-server"></i>
+                                Weekly
+                            </label>
+                        </li>
+                        <li>
+                            <input type="radio" name="t" id="month">
+                            <label class="rad-5" for="month">
+                                <i class="fa-solid fa-server"></i>
+                                Monthly
+                            </label>
+                        </li>
+                        <li>
+                            <input type="radio" name="t" id="year">
+                            <label class="rad-5" for="year">
+                                <i class="fa-solid fa-server"></i>
+                                Yearly
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
