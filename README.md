@@ -1,4 +1,6 @@
 # Dashboard
-Responsive Dashboard Using HTML, CSS (8 pages)
+-	Responsive Dashboard website containing 8 page with animations.
+-	HTML | CSS | Responsive
+
 <hr/>
 <a href="https://ziad-ahmed22.github.io/DashboardHtmlCss/">Live View</a>
