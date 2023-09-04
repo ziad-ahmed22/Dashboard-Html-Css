@@ -3,4 +3,4 @@
 -	HTML | CSS | Responsive
 
 <hr/>
-<a href="https://ziad-ahmed22.github.io/DashboardHtmlCss/">Live View</a>
+<a href="https://ziad-ahmed22.github.io/Dashboard-Html-Css/">Live View</a>
